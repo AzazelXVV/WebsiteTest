@@ -5,6 +5,8 @@ let compteur = {
     4: 0
 }
 
+let user_input = ""
+
 function increment(beerID){
 
     compteur[beerID]++
@@ -23,3 +25,7 @@ function totalBeer(){
     document.getElementById("totalbeer").textContent = compteur[1] + compteur[2] + compteur[3] + compteur[4]
 }
      
+function GetInput(){
+    user_input = document.getElementById("UserInput").textContent
+    console.log(document.getElementById("UserInput").textContent)
+}

@@ -582,6 +582,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -642,6 +650,10 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .rounded-t-2xl {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
@@ -666,9 +678,19 @@ video {
   background-color: rgb(146 52 66 / var(--tw-bg-opacity));
 }
 
+.bg-csb_yellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 201 95 / var(--tw-bg-opacity));
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
