@@ -618,6 +618,10 @@ video {
   width: 47%;
 }
 
+.w-\[80\%\] {
+  width: 80%;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
