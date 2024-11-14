@@ -27,5 +27,5 @@ function totalBeer(){
      
 function GetInput(){
     user_input = document.getElementById("UserInput").value
-    console.log(user_input)
+    window.location.href = "trap.html"
 }
