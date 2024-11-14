@@ -26,6 +26,6 @@ function totalBeer(){
 }
      
 function GetInput(){
-    user_input = document.getElementById("UserInput").textContent
-    console.log(document.getElementById("UserInput").textContent)
+    user_input = document.getElementById("UserInput").value
+    console.log(user_input)
 }
