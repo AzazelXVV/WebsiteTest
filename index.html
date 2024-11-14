@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BuyMyBeer</title>
+    <link rel="stylesheet" href="src/output.css">
+    <script src="main.js"></script>
 </head>
-<body>
-    
+<body class="bg-csb_blue">
+    <div class="mb-5">
+        <h1 class="text-2xl font-bold">Sélectionner les bières souhaiter !</h1>
+    </div>
+
+    <div class="inline-flex w-[20%]">
+        <div class="border-2 rounded-2xl border-csb_yellow bg-csb_bordeaux">
+            <img src="biereRigole.jpg" alt="" width="100%" height="30%" class="rounded-t-2xl">
+            <h1 class="flex justify-center">Golden retriver</h1>
+            <div class="flex justify-center">
+                <button id="GoldenAdd" class="border-2 border-csb_yellow text-csb_yellow w-5 mr-5" onclick="increment(1)">+</button>
+                <button id="GoldenRemove" class="border-2 border-csb_yellow text-csb_yellow w-5" onclick="decrement(1)">-</button>
+            </div>
+
+            <p id="compteur-1" class="flex justify-center">0</p>
+            
+        </div>
+
+        <div class="border-2 rounded-2xl border-csb_yellow ml-10 bg-csb_bordeaux">
+            <img src="biereSourire.jpg" alt="" width="100%" height="30%" class="rounded-t-2xl">
+            <h1 class="flex justify-center">oui</h1>
+            <div class="flex justify-center">
+                <button id="GoldenAdd" class="border-2 border-csb_yellow text-csb_yellow w-5 mr-5" onclick="increment(2)">+</button>
+                <button id="GoldenRemove" class="border-2 border-csb_yellow text-csb_yellow w-5" onclick="decrement(2)">-</button>
+            </div>
+
+            <p id="compteur-2" class="flex justify-center">0</p>
+            
+        </div>
+
+
+    </div>
+
+    <div class="flex flex-wrap w-[20%] mt-10 ">
+        <div class="border-2 rounded-2xl border-csb_yellow float-left w-[45%] bg-csb_bordeaux">
+            <img src="biereRouge.jpg" alt="" width="100%" height="30%" class="rounded-t-2xl">
+            <h1 class="flex justify-center">El pimento</h1>
+            <div class="flex justify-center">
+                <button id="GoldenAdd" class="border-2 border-csb_yellow text-csb_yellow w-5 mr-5" onclick="increment(3)">+</button>
+                <button id="GoldenRemove" class="border-2 border-csb_yellow text-csb_yellow w-5" onclick="decrement(3)">-</button>
+            </div>
+
+            <p id="compteur-3" class="flex justify-center">0</p>
+            
+        </div>
+
+        <div class="border-2 rounded-2xl border-csb_yellow ml-10 float-right w-[44%] bg-csb_bordeaux">
+            <img src="biereNoir.jpg" alt="" width="100%" height="30%" class="rounded-t-2xl">
+            <h1 class="flex justify-center">Mythique</h1>
+            <div class="flex justify-center">
+                <button id="GoldenAdd" class="border-2 border-csb_yellow text-csb_yellow w-5 mr-5" onclick="increment(4)">+</button>
+                <button id="GoldenRemove" class="border-2 border-csb_yellow text-csb_yellow w-5" onclick="decrement(4)">-</button>
+            </div>
+
+            <p id="compteur-4" class="flex justify-center">0</p>
+            
+        </div>
+    </div>
+    <div class="flex items-center justify-center w-[20%]">
+        <h1>Total</h1>
+        <p id="totalbeer" class="m-3"> 0</p>
+    </div>
 </body>
 </html>
