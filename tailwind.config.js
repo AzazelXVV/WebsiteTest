@@ -8,6 +8,7 @@ module.exports = {
         'csb_yellow': '#FFC95F',
         'csb_bleuC' : '#009DA6',
         'csb_bordeaux' : '#923442',
+        'csb_bordeauxClair' : '#E3B4B8',
       }
     },
   },
