@@ -578,6 +578,10 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .w-5 {
   width: 1.25rem;
 }
