@@ -626,6 +626,10 @@ video {
   width: 90%;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .items-center {
   align-items: center;
 }
@@ -669,6 +673,10 @@ video {
 .bg-csb_yellow {
   --tw-bg-opacity: 1;
   background-color: rgb(255 201 95 / var(--tw-bg-opacity, 1));
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .text-2xl {
