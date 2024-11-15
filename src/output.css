@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.14 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.15 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -617,22 +617,22 @@ video {
 
 .border-csb_yellow {
   --tw-border-opacity: 1;
-  border-color: rgb(255 201 95 / var(--tw-border-opacity));
+  border-color: rgb(255 201 95 / var(--tw-border-opacity, 1));
 }
 
 .bg-csb_blue {
   --tw-bg-opacity: 1;
-  background-color: rgb(1 85 105 / var(--tw-bg-opacity));
+  background-color: rgb(1 85 105 / var(--tw-bg-opacity, 1));
 }
 
 .bg-csb_bordeaux {
   --tw-bg-opacity: 1;
-  background-color: rgb(146 52 66 / var(--tw-bg-opacity));
+  background-color: rgb(146 52 66 / var(--tw-bg-opacity, 1));
 }
 
 .bg-csb_yellow {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 201 95 / var(--tw-bg-opacity));
+  background-color: rgb(255 201 95 / var(--tw-bg-opacity, 1));
 }
 
 .text-2xl {
@@ -646,5 +646,10 @@ video {
 
 .text-csb_yellow {
   --tw-text-opacity: 1;
-  color: rgb(255 201 95 / var(--tw-text-opacity));
+  color: rgb(255 201 95 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
